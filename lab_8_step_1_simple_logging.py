@@ -26,3 +26,4 @@ if SourceLanguageCode == TargetLanguageCode:
     logging.warning("The SourceLanguageCode is the same as the TargetLanguageCode - stopping") # This will print to the console as the default level is warning
 else:
     logging.info("The Source Language and Target Language codes are different - proceeding") # This will not print to the console because it is lower than warning
+    
